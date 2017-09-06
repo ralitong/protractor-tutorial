@@ -1,0 +1,16 @@
+{
+  "name": "protractor-tutorial",
+  "version": "1.0.0",
+  "description": "This serves as a simple project to learn protractor",
+  "main": "index.js",
+  "scripts": {
+    "update-webdriver": "webdriver-manager update",
+    "start-webdriver" : "webdriver-manager start",
+    "test" : "protractor protractor.conf.js"
+  },
+  "author": "Ral Itong",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "protractor": "^5.1.2"
+  }
+}
